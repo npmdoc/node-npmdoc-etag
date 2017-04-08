@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/etag.png?downloads=true)](https://www.npmjs.com/package/etag)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-etag/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-etag%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-etag/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-etag/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-etag%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-etag/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-etag/build/screenCapture.npmPackageListing.svg)
 
