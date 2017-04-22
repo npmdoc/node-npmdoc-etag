@@ -1,9 +1,14 @@
-# api documentation for  [etag (v1.8.0)](https://github.com/jshttp/etag#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-etag.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-etag) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-etag.svg)](https://travis-ci.org/npmdoc/node-npmdoc-etag)
+# npmdoc-etag
+
+#### api documentation for  [etag (v1.8.0)](https://github.com/jshttp/etag#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-etag.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-etag) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-etag.svg)](https://travis-ci.org/npmdoc/node-npmdoc-etag)
+
 #### Create simple HTTP ETags
 
-[![NPM](https://nodei.co/npm/etag.png?downloads=true)](https://www.npmjs.com/package/etag)
+[![NPM](https://nodei.co/npm/etag.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/etag)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-etag/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-etag%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-etag/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-etag/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-etag/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-etag/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-etag/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-etag/build/screenCapture.npmPackageListing.svg)
 
@@ -21,12 +26,10 @@
     },
     "contributors": [
         {
-            "name": "Douglas Christopher Wilson",
-            "email": "doug@somethingdoug.com"
+            "name": "Douglas Christopher Wilson"
         },
         {
-            "name": "David Björklund",
-            "email": "david.bjorklund@gmail.com"
+            "name": "David Björklund"
         }
     ],
     "dependencies": {},
@@ -67,13 +70,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "dougwilson",
-            "email": "doug@somethingdoug.com"
+            "name": "dougwilson"
         }
     ],
     "name": "etag",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jshttp/etag.git"
@@ -85,19 +86,10 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
     },
-    "version": "1.8.0"
+    "version": "1.8.0",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module etag](#apidoc.module.etag)
-
-
-
-# <a name="apidoc.module.etag"></a>[module etag](#apidoc.module.etag)
 
 
 
