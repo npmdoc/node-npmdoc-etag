@@ -61,12 +61,58 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.etag">module etag</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.etag.etag">
+            function <span class="apidocSignatureSpan"></span>etag
+            <span class="apidocSignatureSpan">(entity, options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.etag" id="apidoc.module.etag">module etag</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.etag.etag" id="apidoc.element.etag.etag">
+        function <span class="apidocSignatureSpan"></span>etag
+        <span class="apidocSignatureSpan">(entity, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function etag(entity, options) {
+  if (entity == null) {
+    throw new TypeError(&#x27;argument entity is required&#x27;)
+  }
+
+  // support fs.Stats object
+  var isStats = isstats(entity)
+  var weak = options &#x26;&#x26; typeof options.weak === &#x27;boolean&#x27;
+    ? options.weak
+    : isStats
+
+  // validate argument
+  if (!isStats &#x26;&#x26; typeof entity !== &#x27;string&#x27; &#x26;&#x26; !Buffer.isBuffer(entity)) {
+    throw new TypeError(&#x27;argument entity must be string, Buffer, or fs.Stats&#x27;)
+  }
+
+  // generate entity tag
+  var tag = isStats
+    ? stattag(entity)
+    : entitytag(entity)
+
+  return weak
+    ? &#x27;W/&#x27; + tag
+    : tag
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
